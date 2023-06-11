@@ -20,4 +20,9 @@ void loop()
   distance= duration*0.034/2;
   Serial.print("Distance: ");
   Serial.println(distance);
+
+  if (distance <= 17 && distance >= 2) {
+    // do something here
+  }
 }
+
